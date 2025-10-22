@@ -1,0 +1,29 @@
+{
+  "name": "coinflip-server",
+  "version": "1.0.0",
+  "description": "Сервер для онлайн мультиплеера CoinFlip Casino - развертывание на Render.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "ws": "^8.14.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "game",
+    "multiplayer",
+    "websocket",
+    "casino",
+    "coinflip",
+    "render.com"
+  ],
+  "author": "CoinFlip Casino",
+  "license": "MIT"
+}
